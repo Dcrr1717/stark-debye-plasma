@@ -1,0 +1,15 @@
+block,state,F,quantity,reference_value,this_work
+"ground, lambda_D=10 (lambda=0.1)",ground,0.04,Er,-0.4110284062,-0.4110284061
+"ground, lambda_D=10 (lambda=0.1)",ground,0.04,Gamma_over_2,6.376202e-06,6.376172e-06
+"ground, lambda_D=10 (lambda=0.1)",ground,0.08,Er,-0.4254044083,-0.4254044082
+"ground, lambda_D=10 (lambda=0.1)",ground,0.08,Gamma_over_2,2.964440e-03,2.964439e-03
+"ground, lambda_D=10 (lambda=0.1)",ground,0.10,Er,-0.4351823342,-0.4351823360
+"ground, lambda_D=10 (lambda=0.1)",ground,0.10,Gamma_over_2,8.521063e-03,8.521063e-03
+"ground, lambda_D=5 (lambda=0.2)",ground,0.06,Er,-0.3380688975,-0.3380688973
+"ground, lambda_D=5 (lambda=0.2)",ground,0.06,Gamma_over_2,1.123565e-03,1.123565e-03
+"ground, lambda_D=5 (lambda=0.2)",ground,0.10,Er,-0.3565207954,-0.3565207949
+"ground, lambda_D=5 (lambda=0.2)",ground,0.10,Gamma_over_2,1.190571e-02,1.190572e-02
+"n=2 doublet, lambda_D=inf",k=+1,0.02,Er,-0.0889837856,-0.0889838601
+"n=2 doublet, lambda_D=inf",k=+1,0.02,Gamma_over_2,1.544576e-02,1.544578e-02
+"n=2 doublet, lambda_D=inf",k=-1,0.02,Er,-0.2066822365,-0.2066822354
+"n=2 doublet, lambda_D=inf",k=-1,0.02,Gamma_over_2,3.039286e-02,3.039286e-02

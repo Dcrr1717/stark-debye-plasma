@@ -1,0 +1,42 @@
+{
+  "paper": "D",
+  "title": "The Stark problem in a Debye plasma: a coupled-channel complex-scaling map of field-screening competition",
+  "units": "Hartree atomic units",
+  "system": "hydrogen (Z = 1)",
+  "sector": "m = 0",
+  "production": {
+    "beta": 0.35,
+    "n_b": 70,
+    "ell_max": 14,
+    "degrees_of_freedom": 1050,
+    "quadrature": "3000-point Gauss-Legendre on x in [0, 760], x = 2*beta*r",
+    "theta_c_pair_default": [0.18, 0.28],
+    "theta_c_retry": [0.30, 0.42],
+    "overlap_identity_certified_to": 1.3e-12,
+    "hydrogen_limit_check": "assembled system checked against -1/(2 n^2), deviation < 1e-10 on the lowest levels, before every production run; a failed check aborts the run"
+  },
+  "anchors": {
+    "ell_max_n_b_pairs": [[12, 60], [16, 80]],
+    "note": "pure-Stark anchors of Table 'anchors' computed on these two independent discretizations; inter-grid drift quoted as truncation-error estimate"
+  },
+  "grid": {
+    "F_values": [0.02, 0.04, 0.06, 0.08, 0.10],
+    "lambda_values": "0.00 to 0.80 in steps of 0.05 (17 values)",
+    "points": 85
+  },
+  "n2_doublet": {
+    "F": 0.02,
+    "lambda_range": "0.000 to 0.300 in steps of 0.025",
+    "labels": "k = +1 (uphill) / k = -1 (downhill), continuation labels of the lambda = 0 parabolic limit"
+  },
+  "screening_pure_limit_anchor": {
+    "F": 0.0,
+    "lambda": 0.25,
+    "ell_block": 1,
+    "n_b": 220
+  },
+  "notes": [
+    "Quoted uncertainties are theta_c-spreads and inter-grid drifts, i.e. error estimates calibrated against the benchmarks, not rigorous bounds.",
+    "NEEDS_HUMAN: confirm any additional hidden solver parameters not stated in the manuscript."
+  ]
+}
